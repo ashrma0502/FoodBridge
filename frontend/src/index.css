@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+/*
+ * index.css — FoodBridge global styles
+ * Tailwind utilities are available everywhere via the import above.
+ * Add global resets, CSS variables, or base typography here.
+ */
+
+:root {
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
